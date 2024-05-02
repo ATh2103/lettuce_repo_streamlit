@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import time
 
-# Sample dataset (replace with your own dataset)
 sample_data = pd.read_csv("lettuce_dataset.csv")
 
 def automatic_image_display_page():
