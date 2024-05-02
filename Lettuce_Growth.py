@@ -2,15 +2,6 @@ import streamlit as st
 import pandas as pd
 import time
 
-page_bg = """
-<style>
-[data-testid="stAppViewContainer"] {
-background-color : #376952;
-}
-</style>
-"""
-
-st.markdown(page_bg, unsafe_allow_html=True)
 # Sample dataset (replace with your own dataset)
 sample_data = pd.read_csv("lettuce_dataset.csv")
 
