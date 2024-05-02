@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
-import os
 import time
-import joblib
 
 # Sample dataset (replace with your own dataset)
 sample_data = pd.read_csv("lettuce_dataset.csv")
