@@ -5,7 +5,7 @@ import time
 page_bg = """
 <style>
 [data-testid="stAppViewContainer"] {
-background-color : #ffffff;
+background-color : #376952;
 }
 </style>
 """
