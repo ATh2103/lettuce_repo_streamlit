@@ -35,4 +35,4 @@ def display_data(image_placeholder, parameters_placeholder_gd,parameters_placeho
 
 automatic_image_display_page()
 
-
+st.slider(label="temperature" , value=10)
